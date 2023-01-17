@@ -7,15 +7,26 @@
 }
 
 h2{
-    font-family: 'Handlee', cursive; 
+    font-family: 'Handlee', cursive;
     text-align: center;
+}
+
+p{
+    font-family: 'Handlee', cursive;
+}
+
+section, h2, p{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    font-size: 0.60rem;
-    
+    font-size: 0.55rem;
 }
 
 .logo{
@@ -24,3 +35,5 @@ h2{
     margin: 0;
     padding: 0;
 }
+
+

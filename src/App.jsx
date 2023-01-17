@@ -9,9 +9,12 @@ function App() {
   const [count, setCount] = useState(null)
 
   return (
-    <Header></Header>,
-    <Productos></Productos>,
-    <Description></Description>
+    <div>
+      <Header/>
+      <Description/>
+      <Productos/>
+    </div>
+    
   );
 }
 
