@@ -30,6 +30,13 @@ function Card() {
                 <h5>$400</h5>
                 <button type="onclick">Añade al carrito</button>
             </div>
+            <br></br>
+            <div className="card" style={{ width: '8.50rem' }}>
+                <img className="tarjet" src="./Queso.jpg" width={150} alt="" />
+                <h5>Pan Queso</h5>
+                <h5>$400</h5>
+                <button type="onclick">Añade al carrito</button>
+            </div>
         </div>
     );
 }
