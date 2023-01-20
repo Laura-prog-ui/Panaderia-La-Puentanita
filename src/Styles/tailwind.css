@@ -1,5 +1,6 @@
 *{
     background: #f3f2f0;
+    margin: 0.5%;
 }
 
 .titulo{
@@ -15,25 +16,32 @@ p{
     font-family: 'Handlee', cursive;
 }
 
-section, h2, p{
+section, h2{
     padding-top: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    font-size: 0.55rem;
-}
 
+}
 .logo{
-    width: 5rem;
-    height: 5rem;
-    margin: 0;
-    padding: 0;
+    height: 10vh;
+    width: 10vh;
 }
 
-
+.card, h5 {
+    background-color: white;
+    font-family: 'Handlee', cursive;
+}
+button{
+    border-radius: 0.5rem;
+}
+img{
+    align-items: center;
+    margin-top: 0.5%;
+}

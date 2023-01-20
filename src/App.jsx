@@ -1,21 +1,22 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import Description from './components/Description';
-import Header from './components/Header'
-import Productos from './components/Productos';
-
+import Products from './components/Products';
+import Card from './components/Card';
+import Contact from './components/Contact';
+import Navigation from './components/Navigation';
 
 function App() {
   const [count, setCount] = useState(null)
 
   return (
     <div>
-      <Header/>
+      <Navigation/>
       <Description/>
-      <Productos/>
+      <Card/>
+      <Products/>
+      <Contact/>
     </div>
-    
-  );
+  )
 }
 
 export default App;
