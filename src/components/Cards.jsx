@@ -3,7 +3,7 @@ import Card from './Card';
 
 function Cards() {
     return(
-        <div className='container d-flex justify-content-center'>
+        <div className='container d-flex justify-content-center aling h-100'>
             <div className='row'>
                 <div className='col-md-4'>
                     <Card/>
