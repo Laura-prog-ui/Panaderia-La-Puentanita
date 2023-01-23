@@ -1,5 +1,5 @@
 *{
-    background: #f3f2f0;
+    background: #ECE8E4;
     margin: 0.5%;
 }
 
@@ -34,7 +34,7 @@ section, h2{
     width: 10vh;
 }
 
-.card, h5 {
+/* .card, h5 {
     background-color: white;
     font-family: 'Handlee', cursive;
 }
@@ -44,4 +44,9 @@ button{
 img{
     align-items: center;
     margin-top: 0.5%;
+} */
+/* Cards */
+
+.App{
+    background: #ECE8E4;
 }

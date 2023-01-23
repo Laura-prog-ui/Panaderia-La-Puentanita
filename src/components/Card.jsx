@@ -1,41 +1,13 @@
 import React from "react";
 
+
 function Card() {
     return (
-        <div>
-            <div className="card" style={{ width: '8.50rem' }}>
-                <img className="tarjet" src="./Hojaldrado.png" width={150} alt="" />
-                <h5>Pan Hojaldrado</h5>
-                <h5>$400</h5>
-                <button type="onclick">Añade al carrito</button>
-            </div>
-            <br></br>
-            <div className="card" style={{ width: '8.50rem' }}>
-                <img className="tarjet" src="./Rollo.jpg" width={150} alt="" />
-                <h5>Pan Rollo</h5>
-                <h5>$400</h5>
-                <button type="onclick">Añade al carrito</button>
-            </div>
-            <br></br>
-            <div className="card" style={{ width: '8.50rem' }}>
-                <img className="tarjet" src="./Queso.jpg" width={150} alt="" />
-                <h5>Pan Queso</h5>
-                <h5>$400</h5>
-                <button type="onclick">Añade al carrito</button>
-            </div>
-            <br></br>
-            <div className="card" style={{ width: '8.50rem' }}>
-                <img className="tarjet" src="./mogolla-negra.jpg" width={150} alt="" />
-                <h5>Mogolla</h5>
-                <h5>$400</h5>
-                <button type="onclick">Añade al carrito</button>
-            </div>
-            <br></br>
-            <div className="card" style={{ width: '8.50rem' }}>
-                <img className="tarjet" src="./Queso.jpg" width={150} alt="" />
-                <h5>Pan Queso</h5>
-                <h5>$400</h5>
-                <button type="onclick">Añade al carrito</button>
+        <div className='card'>
+            <img src="./Hojaldrado.png" alt="" />
+            <div className='card-body'>
+                <h4 className='card-title'> Pan Hojaldrado </h4>
+                <p className='card-text text-secundary'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates incidunt ipsam eius fugiat sequi porro architecto consequuntur laborum! Neque aut accusantium impedit tenetur minus quos ab ipsum fugiat, corrupti laudantium?</p>
             </div>
         </div>
     );
